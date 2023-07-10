@@ -41,7 +41,7 @@ def registerUser(name, photo):
             cursor.close()
             con.close()
     return {"id": id, "affected":inserted}
-
+#Comentario de prueba
 def getUser(name, path):
     id = 0
     rows = 0
